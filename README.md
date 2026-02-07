@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+properties = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-properties@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-properties/tags). For example,
+
+```javascript
 properties = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-properties@v0.2.3-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var properties = require( 'path/to/vendor/umd/utils-properties/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-properties@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-properties@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -108,7 +113,7 @@ var props = properties( obj );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-properties@v0.2.3-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-properties@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
